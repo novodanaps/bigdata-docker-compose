@@ -41,7 +41,7 @@ services:
       - 1-65535
     ports:
       # Spark Master Web UI
-      - 8080:8080
+      - 7077:8080
       # Spark job Web UI: increments for each successive job
       - 4040:4040
       - 4041:4041
